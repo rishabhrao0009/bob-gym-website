@@ -1,0 +1,1 @@
+function choosePlan(plan){alert("Thanks for choosing the "+plan+" plan! Replace the demo WhatsApp number in index.html with the gym's real number.");}

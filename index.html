@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOB GYM | Train Hard. Stay Strong.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a class="brand" href="#home"><span>🏋</span> BOB <b>GYM</b></a>
+  <nav>
+    <a class="active" href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#services">SERVICES</a>
+    <a href="#plans">PLANS</a>
+    <a href="#trainers">TRAINERS</a>
+    <a href="#gallery">GALLERY</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+  <a class="nav-btn" href="#contact">JOIN NOW <span>→</span></a>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow">NO PAIN • NO GAIN</p>
+    <h1>TRAIN HARD<br>STAY <span>STRONG</span></h1>
+    <p class="hero-text">Transform your body. Transform your life.<br>Join BOB GYM and start your fitness journey<br>with the best trainers and premium equipment.</p>
+    <div class="actions">
+      <a class="btn red" href="#plans">JOIN NOW <span>→</span></a>
+      <a class="btn outline" href="#contact">CONTACT US</a>
+    </div>
+    <div class="stats">
+      <div><strong>500+</strong><small>HAPPY MEMBERS</small></div>
+      <div><strong>25+</strong><small>EXPERT TRAINERS</small></div>
+      <div><strong>5+</strong><small>YEARS EXPERIENCE</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <div class="section-head">
+    <p class="eyebrow">WHAT WE OFFER</p>
+    <h2>OUR SERVICES</h2>
+  </div>
+  <div class="cards">
+    <article class="service-card">
+      <div class="service-img img1"></div>
+      <div class="card-body"><span class="circle">🏋</span><h3>WEIGHT TRAINING</h3><p>Build muscle and strength with our advanced equipment.</p></div>
+    </article>
+    <article class="service-card">
+      <div class="service-img img2"></div>
+      <div class="card-body"><span class="circle">👤</span><h3>PERSONAL TRAINING</h3><p>Get personalized workout plans tailored to your fitness goals.</p></div>
+    </article>
+    <article class="service-card">
+      <div class="service-img img3"></div>
+      <div class="card-body"><span class="circle">❤</span><h3>CARDIO TRAINING</h3><p>Improve your endurance and boost your overall health.</p></div>
+    </article>
+  </div>
+</section>
+
+<section id="plans" class="section plans">
+  <div class="section-head left">
+    <p class="eyebrow">CHOOSE YOUR PLAN</p>
+    <h2>MEMBERSHIP PLANS</h2>
+  </div>
+  <div class="plans-grid">
+    <article class="plan"><h3>BASIC</h3><div class="price">₹699 <small>/month</small></div><ul><li>Gym Access</li><li>Cardio Equipment</li><li>Basic Guidance</li></ul><button onclick="choosePlan('Basic')">CHOOSE PLAN</button></article>
+    <article class="plan popular"><div class="tag">MOST POPULAR</div><h3>PRO</h3><div class="price">₹999 <small>/month</small></div><ul><li>Everything in Basic</li><li>Personal Training</li><li>Diet Guidance</li></ul><button onclick="choosePlan('Pro')">CHOOSE PLAN</button></article>
+    <article class="plan"><h3>PREMIUM</h3><div class="price">₹1,199 <small>/month</small></div><ul><li>Everything in Pro</li><li>Advanced Training</li><li>Personal Diet Plan</li></ul><button onclick="choosePlan('Premium')">CHOOSE PLAN</button></article>
+  </div>
+</section>
+
+<section id="about" class="about section">
+  <div class="about-image"></div>
+  <div>
+    <p class="eyebrow">ABOUT US</p>
+    <h2>WELCOME TO BOB GYM</h2>
+    <p>At BOB GYM, our mission is to help you unlock your full potential. We provide world-class equipment, expert guidance, and a supportive environment to help you achieve your fitness goals.</p>
+    <div class="features">
+      <span>⚙ <b>MODERN<br>EQUIPMENT</b></span>
+      <span>👥 <b>EXPERT<br>TRAINERS</b></span>
+      <span>✓ <b>CLEAN & SAFE<br>ENVIRONMENT</b></span>
+    </div>
+  </div>
+</section>
+
+<section id="trainers" class="section trainer-strip">
+  <div><p class="eyebrow">MEET THE TEAM</p><h2>EXPERT TRAINERS</h2><p>Professional guidance to keep you consistent, safe and progressing.</p></div>
+  <div class="trainer-list">
+    <div><strong>ANKIT</strong><span>Strength Coach </span><span>Personal Trainer</span> <span>Cardio Coach</span></div>
+    
+  </div>
+</section>
+
+<section id="gallery" class="section gallery">
+  <div class="section-head"><p class="eyebrow">INSIDE BOB GYM</p><h2>OUR GALLERY</h2></div>
+  <div class="gallery-grid">
+    <div class="g g1"></div><div class="g g2"></div><div class="g g3"></div><div class="g g4"></div>
+  </div>
+</section>
+
+<section id="contact" class="cta">
+  <div><p class="eyebrow">HAVE QUESTIONS?</p><h2>READY TO TRANSFORM YOURSELF?</h2><p>Join BOB GYM today and start your journey!</p></div>
+  <a class="btn red" href="https://wa.me/919999999999" target="_blank">JOIN NOW <span>→</span></a>
+</section>
+</main>
+
+<footer>
+  <div class="brand">🏋 BOB <b>GYM</b></div>
+  <div class="footer-links"><a href="#home">HOME</a><a href="#about">ABOUT</a><a href="#services">SERVICES</a><a href="#plans">PLANS</a><a href="#trainers">TRAINERS</a><a href="#gallery">GALLERY</a><a href="#contact">CONTACT</a></div>
+  <p>© 2026 BOB GYM. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
